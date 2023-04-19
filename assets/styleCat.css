@@ -1,0 +1,32 @@
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+
+body{
+    font-family: 'Pacifico', cursive;
+    font-size: larger;
+    color: indigo;
+    background: rgb(238,174,202);
+    background: radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(148,187,233,1) 100%);
+}
+header{
+    background-image:url('./img/cute-cat-paws-footprint-seamless-pattern-background_42349-730.avif');
+    background-size: cover;
+    background-position:bottom;
+    background-attachment: fixed;
+    background-blend-mode: darken;
+}
+
+.cat-avatar{
+    height: 350px;
+    width: 400px;
+    /* border-color: olive;
+    border-style: dotted;
+    border-width: 10px ; */
+    border: 10px dotted orchid ;
+    border-radius: 50%;
+}
+.cat-name{
+  display: block;
+}
+.cat-position{
+   
+}
